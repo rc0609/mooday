@@ -24,7 +24,8 @@ const PageWrapper = ({ children }) => {
   }, []);
 
   return (
-    <main className="relative px-6 py-10 min-h-screen overflow-hidden transition-colors duration-700">
+    <main className="relative px-6 py-10 pt-24 min-h-screen overflow-hidden transition-colors duration-700">
+
       {/* Background Layers */}
       <div
         className={`absolute inset-0 bg-gradient-to-br from-[#FFD6FF] to-[#E4ECFD] transition-opacity duration-700 ease-in-out ${
