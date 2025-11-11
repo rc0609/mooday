@@ -65,7 +65,7 @@ const Home = () => {
             {[
               {
                 title: "Capture your feelings with a tap",
-                desc: "Pick a mood, write freely, and save your emotional snapshot to a calming calendar.",
+                desc: "Pick an emoji, write freely, and save your emotional snapshot to a calming calendar.",
                 light: "bg-orange-100/40",
                 dark: "dark:bg-orange-900/40",
                 glow: "shadow-[0_0_15px_rgba(255,165,0,0.3)] dark:shadow-[0_0_25px_rgba(255,165,0,0.5)]",

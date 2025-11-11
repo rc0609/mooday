@@ -25,11 +25,10 @@ const NavBar = ({ isLoggedIn, darkMode, toggleDarkMode }) => {
 
   return (
       <nav
-        className={`fixed top-0 left-0 w-full z-50 px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center backdrop-blur-md transition-colors duration-500 shadow-lg ${
-          darkMode
-            ? 'bg-gray-900/80 text-white shadow-[0_0_15px_rgba(150,100,255,0.4)]'
-            : 'bg-white/80 text-gray-900 shadow-[0_0_12px_rgba(150,100,255,0.2)]'
-        }`}
+        className={`w-full px-6 py-4 flex flex-col md:flex-row md:justify-between md:items-center 
+        ${darkMode ? 'bg-gray-900 text-white shadow-[0_1px_10px_rgba(100,100,255,0.25)]' 
+        : 'bg-white text-gray-900 shadow-[0_2px_10px_rgba(0,0,0,0.1)]'} 
+        fixed top-0 left-0 z-50 transition-all duration-500`}
       >
 
       <div className="flex justify-between items-center w-full md:w-auto">
